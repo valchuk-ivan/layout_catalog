@@ -2,7 +2,6 @@
   &__list {
     display: flex;
     align-items: center;
-    column-gap: 20px;
   }
 
   &__link {
@@ -30,6 +29,8 @@
 
         position: absolute;
         bottom: 0;
+        left: 0;
+        right: 0;
 
         display: block;
         height: 4px;
